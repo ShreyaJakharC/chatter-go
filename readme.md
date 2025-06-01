@@ -60,7 +60,7 @@ This implementation was written as part of the “Chatterbox” assignment for C
   - `EndSession()` securely wipes all chain keys, ratchet keys, and cached keys before deleting the session  
   - Ensures no sensitive key material lingers in memory  
 
-## Key Takeaways / Lessons Learned
+## Key Takeaways
 - **Cryptography in Practice**: Building a Signal-style protocol from scratch deepened my understanding of HKDF, AES-GCM, and elliptic-curve Diffie-Hellman.  
 - **Double Ratchet Mechanics**: Implementing the symmetric and DH ratchets clarified how forward secrecy and post-compromise recovery work in real time.  
 - **Out-of-Order Message Logic**: Handling “early” and “late” messages with cached keys highlighted the complexity of real-world network behavior.  
