@@ -1,4 +1,4 @@
-# chatterbox-go
+# Chatterbox Go
 
 ## Overview
 Chatterbox is a Go-based secure messaging client implementing a Signal-style Double Ratchet (double ratchet) protocol with a Triple Diffie-Hellman (3DH) handshake. It ensures:
